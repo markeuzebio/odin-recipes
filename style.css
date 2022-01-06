@@ -1,0 +1,52 @@
+body {
+  font-family: "Times New Roman", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p, li {
+  text-align: justify;
+}
+
+.lasagna {
+  color: #ff8c00;
+}
+
+.frango-com-quiabo {
+  color: #228b22;
+}
+
+.pudding {
+  color: #ee82ee;
+}
+
+img.lasagna {
+  width: 300px;
+  height: auto;
+}
+
+img.frango-com-quiabo {
+  width: 400px;
+  height: auto;
+}
+
+img.pudding {
+  width: 350px;
+  height: auto;
+}
+
+.lasagna.subtopic {
+  color: #ffe135;
+  font-size: 30px;
+}
+
+.pudding.subtopic {
+  color: #fa8072;
+  font-size: 30px;
+}
