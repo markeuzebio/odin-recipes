@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    font-weight: 1000;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", "Lucida Console", sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+img {
+    width: 460;
+    height: auto;
+}
+
+.feijoada {
+    color: rgb(146, 4, 146);
+}
+
+.lasagna {
+    color: rgb(242, 89, 89);
+}
+
+.tropeiro {
+    color: rgb(205, 175, 6);
+}
+
+.pudim {
+    color: rgb(187, 123, 4);
+}
+
+.salpicao {
+    color: rgb(255, 255, 8);
+}
+
+.ingredients li, .steps li {
+    font-size: 14px;
+}
+
+
+.ingredients, .steps {
+    background-color: black;
+    color: white;
+}
+
+#odin {
+    color: goldenrod;
+}
