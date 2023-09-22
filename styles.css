@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*::after, *::before, * {
+    box-sizing: inherit;
+}
+
 h1 {
     text-align: center;
     font-weight: 1000;
@@ -7,7 +15,7 @@ h1, h2, h3 {
     font-family: "Courier New", "Lucida Console", sans-serif;
 }
 
-p{
+p {
     font-family: sans-serif;
 }
 
@@ -16,24 +24,43 @@ img {
     height: auto;
 }
 
-.feijoada {
-    color: rgb(146, 4, 146);
+#recipes-list {
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    border: 6px double black;
 }
 
-.lasagna {
-    color: rgb(242, 89, 89);
+#recipes-list li {
+    text-align: center;
+    padding: 15px 0;
 }
 
-.tropeiro {
-    color: rgb(205, 175, 6);
+li a {
+    color: lightyellow;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
-.pudim {
-    color: rgb(187, 123, 4);
+#li-feijoada {
+    background-color: purple;
 }
 
-.salpicao {
-    color: rgb(255, 255, 8);
+#li-lasagna {
+    background-color: rgb(242, 89, 89);
+}
+
+#li-tropeiro {
+    background-color: rgb(205, 175, 6);
+}
+
+#li-pudim {
+    background-color: rgb(187, 123, 4);
+}
+
+#li-salpicao {
+    background-color: rgb(174, 174, 7);;
 }
 
 .ingredients li, .steps li {
